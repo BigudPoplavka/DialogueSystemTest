@@ -10,13 +10,4 @@ public class Phrase : ScriptableObject
 
     public string Text { get => _text; set => _text = value; }
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 }

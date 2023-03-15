@@ -34,11 +34,6 @@ public class Answer : ScriptableObject
         answerClickAction = new UnityAction(ApplyAnswerAction);
     }
 
-    void Update()
-    {
-        
-    }
-
     public void ApplyAnswerAction()
     {
         answerSelected?.Invoke(_linkNode);

@@ -25,12 +25,6 @@ public class Dialogue : MonoBehaviour
         dialogueRenderer = _rendererOwner.GetComponent<DialogueRenderer>();
     }
 
- 
-    void Update()
-    {
-        
-    }
-
     public void StartDialog()
     {
         CurrentNode = DialogueNodes[0];

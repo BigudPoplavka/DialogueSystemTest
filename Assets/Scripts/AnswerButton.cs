@@ -9,16 +9,6 @@ public class AnswerButton : MonoBehaviour
 
     public DialogueNode AnswerDialogueNode { get => _answerDialogueNode; set => _answerDialogueNode = value; }
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
     public void ShowLinkNode()
     {
         if(_answerDialogueNode != null)

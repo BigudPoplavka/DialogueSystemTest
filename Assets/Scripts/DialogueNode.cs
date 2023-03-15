@@ -14,14 +14,4 @@ public class DialogueNode : ScriptableObject
     public List<Answer> Answers { get => _answers; set => _answers = value; }
     public Character Initiator { get => _initiator; set => _initiator = value; }
 
-    void Start()
-    {
-        
-    }
-
-   
-    void Update()
-    {
-        
-    }
 }

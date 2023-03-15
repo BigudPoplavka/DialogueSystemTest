@@ -34,11 +34,6 @@ public class DialogueRenderer : MonoBehaviour
 
     }
 
-    void Update()
-    {
-        
-    }
-
     public void ChangeDialogPanelShowState()
     {
         _dialoguePanel.SetActive(!_dialoguePanel.activeSelf);

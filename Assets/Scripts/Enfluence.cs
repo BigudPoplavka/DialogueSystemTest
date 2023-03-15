@@ -7,18 +7,6 @@ public class Enfluence : MonoBehaviour
 {
     [SerializeField] private List<DialogueNode> _enflDialogueNodes;
 
-
-    void Start()
-    {
-        
-    }
-
-    
-    void Update()
-    {
-        
-    }
-
     public void AddPhrase(List<Answer> phrases)
     {
         foreach(DialogueNode dialogueNode in _enflDialogueNodes)
@@ -32,6 +20,6 @@ public class Enfluence : MonoBehaviour
 
     public void RemovePhrase()
     {
-
+        ///
     }
 }

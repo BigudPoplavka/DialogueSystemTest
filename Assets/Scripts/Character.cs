@@ -14,14 +14,4 @@ public class Character : ScriptableObject
     public List<Phrase> Text { get => _phrase; set => _phrase = value; }
     public Sprite Icon { get => _icon; set => _icon = value; }
 
-    void Start()
-    {
-        
-    }
-
-    
-    void Update()
-    {
-        
-    }
 }
