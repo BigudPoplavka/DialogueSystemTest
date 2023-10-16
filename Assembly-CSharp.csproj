@@ -59,17 +59,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\WorldAction.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Answer.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\DialogueRenderer.cs" />
+    <Compile Include="Assets\Scripts\AnswerButton.cs" />
     <Compile Include="Assets\Scripts\EnfluenceLayer.cs" />
     <Compile Include="Assets\Scripts\Enfluence.cs" />
     <Compile Include="Assets\Scripts\DialogueNode.cs" />
-    <Compile Include="Assets\Scripts\PhrasesSubclass.cs" />
     <Compile Include="Assets\Scripts\Phrase.cs" />
-    <Compile Include="Assets\Scripts\AnswerButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
